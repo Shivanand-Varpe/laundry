@@ -258,9 +258,8 @@ void setting() {
         break;
     case 5:
         printf("\n\t\t|=======================================|\n");
-        printf("\t\t||   Current Shirt Rate  : Rs. %d     ||\n", rsrt);
-        printf("\t\t||   Current Pant  Rate  : Rs. %d     ||\n", rpnt);
-        printf("\t\t||   Current Username    : %-10s ||\n", uid);
+        printf("\t\t||   Current Shirt Rate  : Rs. %d       ||\n", rsrt);
+        printf("\t\t||   Current Pant  Rate  : Rs. %d       ||\n", rpnt);
         printf("\t\t|=======================================|\n");
         setting();
         break;
@@ -278,14 +277,15 @@ void project() {
     printf("\t\t||         -- PROJECT  INFO --         ||\n");
     printf("\t\t|=======================================|\n");
     printf("\t\t||  Project Name : Laundry Management  ||\n");
-    printf("\t\t||               System                ||\n");
+    printf("\t\t||                 System              ||\n");
     printf("\t\t|=======================================|\n");
-    printf("\t\t||  Developer    : Shivanand           ||\n");
-    printf("\t\t||  Language     : C Programming       ||\n");
-    printf("\t\t||  Year         : 2026                ||\n");
+    printf("\t\t||  Developer  : Shivanand Varpe (125) ||\n");
+    printf("\t\t||             : Aditya Veer (127)     ||\n");
+    printf("\t\t||  Language   : C Programming         ||\n");
+    printf("\t\t||  Year       : 2026                  ||\n");
     printf("\t\t|=======================================|\n");
     printf("\t\t||  Features:                          ||\n");
-    printf("\t\t||  - Add Customer Records             ||\n");
+    printf("\t\t||  - Create & Complete Order          ||\n");
     printf("\t\t||  - View All Records                 ||\n");
     printf("\t\t||  - Search by Name/ID/Mobile/Date    ||\n");
     printf("\t\t||  - Bill Auto Calculation            ||\n");
