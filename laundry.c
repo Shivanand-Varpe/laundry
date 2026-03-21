@@ -184,7 +184,7 @@ void exite(){
 
 void record()
 {
-     for(int i=0;i<=1000;++i){ 
+     for(int i=0;i<=n;++i){ 
      if(s[i].id!= 0){   
      printf("\n\t\tId : %d\n\t\tName : %s\n\t\tMobile No : %d\n\t\tShirts : %d\n\t\tPants: %d\n\t\tDate of Deposite: %d/%d/%d\n\t\tDate of  Delavry : %d/%d/%d\n\t\tBill : %d\n\t\tStetus : %s",s[i].id,s[i].name,s[i].num,s[i].srt,s[i].pnt,s[i].dpts.dd,s[i].dpts.mm,s[i].dpts.yy,s[i].ddlry.dd,s[i].ddlry.mm, s[i].ddlry.yy,s[i].bl,s[i].stetus);}
       else{break;}}
