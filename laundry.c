@@ -143,7 +143,7 @@ void add()
     scanf("%d", &s[n].dpts.mm);
     printf("\t\tyear:");
     scanf("%d", &s[n].dpts.yy);
-    printf("\t\tDate of delavry (dd/mm/yy):");
+    printf("\t\t--Date of delavry--\n");
     printf("\t\tDay:");
     scanf("%d", &s[n].ddlry.dd);
     printf("\t\tmonth:");
