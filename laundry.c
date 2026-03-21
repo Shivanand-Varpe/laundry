@@ -51,39 +51,6 @@ void searchbydelavrydate();
 int n=0;
 void main()
 {
-    printf("\n\n");
-int i;
-
-    for(i = 0; i < 1000; i++)
-    {
-        s[i].id = i + 1;
-
-        sprintf(s[i].name, "Customer%d", i+1);
-
-        s[i].num = 9000000000 + i;   // fake phone numbers
-
-        s[i].srt = (i % 5) + 1;      // 1 to 5 shirts
-        s[i].pnt = (i % 3) + 1;      // 1 to 3 pants
-
-        // Deposit date
-        s[i].dpts.dd = (i % 28) + 1;
-        s[i].dpts.mm = (i % 12) + 1;
-        s[i].dpts.yy = 2026;
-
-        // Delivery date (5 days later simple logic)
-        s[i].ddlry.dd = ((i % 28) + 6);
-        s[i].ddlry.mm = (i % 12) + 1;
-        s[i].ddlry.yy = 2026;
-
-        // Bill calculation
-        s[i].bl = (s[i].srt * 50) + (s[i].pnt * 50);
-
-        // Status
-        if(i % 2 == 0)
-            strcpy(s[i].stetus, "Delivered");
-        else
-            strcpy(s[i].stetus, "Pending");
-    }
     login ();
 }
 void login (){
